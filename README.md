@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Calendario Interactivo con React y Next.js
 
-## Getting Started
+Este proyecto es una aplicación de calendario desarrollada con React y Next.js. El calendario permite a los usuarios seleccionar fechas, cambiar entre meses y resaltar días específicos. El componente del calendario es altamente personalizable y utiliza Tailwind CSS para estilos modernos.
 
-First, run the development server:
+## Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Selección de Fechas:** Los usuarios pueden hacer clic en los días del calendario para seleccionar una fecha.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Cambio de Mes:** Botones de navegación para cambiar entre meses y explorar diferentes fechas.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Días Destacados:** Los días específicos, como eventos especiales, se resaltan con colores distintivos.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tecnologías Utilizadas
 
-## Learn More
+- React
+- Next.js
+- Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+## Instalación y Uso
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clona este repositorio.
+2. Ejecuta `npm install` para instalar las dependencias.
+3. Ejecuta `npm run dev` para iniciar la aplicación en modo de desarrollo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Personalización
 
-## Deploy on Vercel
+Puedes personalizar el componente del calendario ajustando los estilos en el archivo CSS y modificando las funciones de manejo de eventos en el código fuente.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licencia
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para más detalles.
